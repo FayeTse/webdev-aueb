@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Slab&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0 auto;
+padding: 0;
+}
+
+body,html {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    background-color: #363636;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+width: 45%;
+}
+
+.logo > img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+   width: 55%;
+   position: relative;
+   }
+
+.menu > ul {
+width: 100%;
+display: flex;
+justify-content: space-around;   
+}
+
+.menu li {
+list-style: none;
+line-height: 40px;
+}
+
+.menu a {
+text-decoration: none;
+color: white;
+font-size: 1.2rem;
+}
+
+.menu > ul ul {
+    display: none;
+}
+
+.menu > ul > li:hover > ul {
+    display: block;
+    background-color: #363636;
+    width: 100px;
+    position: absolute;
+    top: 40px;
+}
+
+.toggle-button {
+    width: 55%;
+    justify-content: flex-end;
+    margin-right: 10px;
+    display: none;
+}
+
+.toggle-button > button {
+    width: 60px;
+    height: 60px;
+}
+
+.toggle-menu {
+padding-top: 120px;
+text-align: center;
+line-height: 30px;
+}
+
+.toggle-menu li > a {
+    text-decoration: none;
+}
+    
+.toggle-menu > ul > li > a {
+    font-size: 26px;
+    color: black;
+}
+
+.toggle-menu > ul > li {
+    padding-top: 20px;
+}
+
+
+.slider {
+width: 100%;
+height: 100%;
+background-image: url('../img/art2.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.title {
+width: 70%;
+margin: 0 auto;
+padding-top: 150px;
+padding-bottom: 60px;
+}
+
+.title > p {
+text-align: center;
+font-family: 'Roboto slab',serif;
+font-size: 35px;
+color: white;
+}
+
+.subtitle {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.subtitle > p {
+text-align: center;
+font-family: 'Quicksand',sans-serif;
+font-size: 25px;
+color: rgb(243, 237, 237);
+}
+
+.main {
+width: 100%;
+margin: 0 auto;
+padding: 40px 25px;
+}
+
+.main-title {
+width: 100%;
+margin: 0 auto;
+padding-bottom: 25px;
+}
+
+.main-title > h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-text > p {
+    font-family: 'Quicksand',sans-serif;
+    line-height: 25px;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    overflow: hidden;
+    background-color: #363636;
+    display: flex;
+    align-items: center;
+} 
+
+.copywright {
+    width: 85%;
+    float: left;
+}
+
+.copywright > p {
+font-family: 'Quicksand',sans-serif;
+font-size: 0,8rem;
+color: white;
+}
+
+.social {
+    width: 15%;
+    float:right;
+    display: flex;
+    align-items: center;
+}
+
+.social > p {
+    margin-right: 10px;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.fa-brands {
+font-size: 30px;
+color: blue;
+margin-right: 5px;
+}
+
+@media (max-width:992px) {
+    .toggle-button {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+}
