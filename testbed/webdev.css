@@ -84,6 +84,7 @@ font-size: 1.2rem;
 }
 
 .toggle-menu {
+    display: none;
     padding-top: 120px;
     text-align: center;
     line-height: 30px;

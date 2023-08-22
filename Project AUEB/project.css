@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Slab&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0 auto;
+padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    margin: 0   auto ;
+    background-color: #87CEEB;
+    display: flex;
+    align-items: center;
+   position: fixed;
+   top: 0;
+   min-height: fit-content;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo > img {
+    width: 50%;
+}
+
+.navbar  {
+    width: 80%;
+   position: relative;
+   padding: 0 auto;
+}
+
+.navbar > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+   list-style: none;
+   line-height: 25px;
+   justify-content: end;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navbar > ul ul {
+    display: none;
+}
+
+.navbar > ul > li:hover > ul {
+display: block;
+background-color:;
+width: 100px;
+position: absolute;
+top: 40px;
+}
+
+.dropdown {
+    font-weight: bold;
+}
+
+.dropdown-content {
+    font-weight: lighter;
+}
+
+.btn {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.slider {
+min-height: 750px;
+background-image: url("img/puppies.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+ background-attachment: fixed;
+}
+ 
+.main {
+width: 100%;
+margin: 0 auto;
+}
+
+.main-title {
+width: 100%;
+margin: 0 auto;
+padding-top: 10px;
+font-family: 'Roboto Slab', serif;
+padding-left: 10px;
+padding-top: 20px;
+}
+
+
+.main-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 5px;
+    overflow: hidden;
+    background-color: #87CEEB;
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+
+.contact {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.info {
+    display: block;
+    font-style: normal;
+  }
+
+.imgF {
+ width: 100%;
+ list-style: none;
+
+}
+
+.social-icons {
+width: 50%;
+display: flex;
+}
+
+.follow {
+display: flex;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-brands {
+font-size: 30px;
+color: blue;
+cursor: pointer;
+}
+
